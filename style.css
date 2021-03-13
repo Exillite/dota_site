@@ -57,3 +57,8 @@
   border-collapse: separate; /* Способ отображения границы */ 
   border-spacing: 7px 11px; /* Расстояние между ячейками */ 
 }
+#tblG{
+  width: 800px; /* Ширина таблицы */
+  border: 1px solid green; /* Рамка вокруг таблицы */
+  margin: 0 auto; /* Выравниваем таблицу по центру окна  */
+}
