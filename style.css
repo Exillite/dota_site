@@ -1,7 +1,16 @@
-
   *{
     margin: 0;
     padding: 0;
+  }
+
+  a { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    сolor: #ffffff;;
+  }
+
+  body{
+    background: #111111;
+    color: #ffffff;
   }
 
   #wrap{
@@ -15,8 +24,11 @@
     height: 70px;
   }
   #nav{
-    background: url(i/bg-nav.gif) #b318cf 100% 0 no-repeat;
+    background: url(i/bg-nav.gif) #cc2b2b 100% 0 no-repeat;
     height: 70px;
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+    box-shadow:0 0 10px #000;
   }
     #nav ul{
       list-style-type: none;
@@ -34,11 +46,11 @@
           display: inline-block;
         }
   #head{
-    background: url(i/bg-header.gif) #2b66c8 0 0 no-repeat;
+    background: #373737;
     height: 50px;
   }
   #logo{
-    background: url(i/logo.gif) #36cf18 0 0 no-repeat;
+    background: #36cf18;
     width: 45px;
     height: 45px;
   }
@@ -50,15 +62,30 @@
 
 #osn{
   width: 1000px; /* Ширина таблицы */
-  border: 1px solid green; /* Рамка вокруг таблицы */
+  border: 1px solid black; /* Рамка вокруг таблицы */
   margin: 0 auto; /* Выравниваем таблицу по центру окна  */
+
 }
 #tbl{
   border-collapse: separate; /* Способ отображения границы */ 
-  border-spacing: 7px 11px; /* Расстояние между ячейками */ 
+  border-spacing: 7px 15px; /* Расстояние между ячейками */
+
 }
 #tblG{
   width: 800px; /* Ширина таблицы */
-  border: 1px solid green; /* Рамка вокруг таблицы */
+  border: 1px solid black; /* Рамка вокруг таблицы */
   margin: 0 auto; /* Выравниваем таблицу по центру окна  */
+}
+
+tr{
+  -moz-box-shadow:0 0 5px #cc2b2b;
+  -webkit-box-shadow:0 0 5px #cc2b2b;
+  box-shadow:0 0 5px #cc2b2b ;
+}
+
+td{
+  background: #000000
+  -moz-box-shadow:0 0 5px #cc2b2b;
+  -webkit-box-shadow:0 0 5px #cc2b2b;
+  box-shadow:0 0 5px #cc2b2b;
 }
