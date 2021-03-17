@@ -69,6 +69,8 @@
 #tbl{
   border-collapse: separate; /* Способ отображения границы */ 
   border-spacing: 7px 15px; /* Расстояние между ячейками */
+  -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
 
 }
 #tblG{
@@ -81,6 +83,8 @@ tr{
   -moz-box-shadow:0 0 5px #cc2b2b;
   -webkit-box-shadow:0 0 5px #cc2b2b;
   box-shadow:0 0 5px #cc2b2b ;
+  -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
 }
 
 td{
@@ -88,7 +92,20 @@ td{
   -moz-box-shadow:0 0 5px #cc2b2b;
   -webkit-box-shadow:0 0 5px #cc2b2b;
   box-shadow:0 0 5px #cc2b2b;
-  text-align: center; 
+  -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+
+#pg {
+  transition: 0.5s;
+  color: red;
+  font-size: 11pt;
+}
+
+#pg:hover{
+  transform: scale(1.1);
+  font-size: 11pt;
 }
 
 
