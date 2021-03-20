@@ -1,6 +1,7 @@
   *{
     margin: 0;
     padding: 0;
+    font-family: "Codename Coder Free 4F";
   }
 
   a { 
@@ -12,6 +13,13 @@
     background: #111111;
     color: #ffffff;
   }
+
+  @font-face {
+    font-family: "Codename Coder Free 4F"; 
+    src: url(20219.ttf); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
 
   #wrap{
     width: 1000px;
@@ -50,7 +58,7 @@
     height: 50px;
   }
   #logo{
-    background: #36cf18;
+    background: url(images/logo.jpg) ;
     width: 45px;
     height: 45px;
   }
@@ -109,4 +117,6 @@ td{
 }
 
 
-
+#k{
+  font-size: 20pt;
+}
